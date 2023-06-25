@@ -1,0 +1,34 @@
+/*For bigger screen then normal 1500px desktop*/
+
+@media (min-width: 1200px) and (max-width: 1700px) {
+}
+
+/*For bigger screen then normal 960px desktop*/
+@media only screen and (max-width: 1199px) {
+}
+/*For Tablet Layout*/
+@media (max-width: 991px) {
+  .ptb-140 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .sec-title {
+    font-size: 48px;
+  }
+}
+
+/*For Wide Mobile Layout*/
+@media (max-width: 767px) {
+  .ptb-140 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .sec-title {
+    font-size: 36px;
+  }
+}
+
+/*For 320-384px up Mobile Layout*/
+
+@media (max-width: 479px) {
+}

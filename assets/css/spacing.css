@@ -1,0 +1,38 @@
+.mt-26 {
+  margin-top: 26px !important;
+}
+.mb-26 {
+  margin-bottom: 26px !important;
+}
+.mb-64 {
+  margin-bottom: 64px;
+}
+.mt-64 {
+  margin-top: 64px;
+}
+.pt-56 {
+  padding-top: 56px !important;
+}
+.pb-56 {
+  padding-bottom: 56px !important;
+}
+.pt-240 {
+  padding-top: 240px;
+}
+
+.pb-140 {
+  padding-bottom: 140px;
+}
+.pt-140 {
+  padding-top: 140px;
+}
+.ptb-140 {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+.mt-0 {
+  margin-top: 0;
+}
+.mb-0 {
+  margin-bottom: 0;
+}
