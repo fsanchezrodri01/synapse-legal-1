@@ -151,8 +151,18 @@
   .history-tab-details .history-tab-content {
     padding: 50px;
   }
+  .ingle-case-content {
+    text-align: center;
+  }
+  .history-tab-details .history-tab-content h3 {
+    font-size: 32px;
+    line-height: 40px;
+  }
   .single-attorney {
     margin-bottom: 40px;
+  }
+  .single-testimonial {
+    text-align: center;
   }
   .form-style-2 {
     padding: 40px;
@@ -161,9 +171,32 @@
   form.law-cform .contact-field textarea {
     padding: 10px 24px;
   }
+
+  /* Subscribe button css */
+  .site-sub form {
+    position: relative;
+  }
+  .site-sub form input {
+    width: 100%;
+    border-radius: 30px;
+    padding: 14px 50px;
+  }
+  .site-sub form i {
+    left: 20px;
+  }
+  .site-sub form button {
+    position: absolute;
+    width: inherit;
+    padding: 14px 20px;
+    right: 0;
+    border-radius: 0 30px 30px 0;
+  }
 }
 
 /*For 320-384px up Mobile Layout*/
 
 @media (max-width: 479px) {
+  .achivement-logos img {
+    margin-right: 8px;
+  }
 }
