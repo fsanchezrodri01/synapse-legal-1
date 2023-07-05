@@ -8,23 +8,158 @@
 }
 /*For Tablet Layout*/
 @media (max-width: 991px) {
+  .pb-100 {
+    padding-bottom: 60px;
+  }
+  .pt-100 {
+    padding-top: 60px;
+  }
   .ptb-140 {
     padding-top: 100px;
     padding-bottom: 100px;
   }
+  .pb-140 {
+    padding-bottom: 100px;
+  }
+  .pt-140 {
+    padding-top: 100px;
+  }
+  .pt-240 {
+    padding-top: 200px;
+  }
+  .sec-content {
+    text-align: center;
+  }
   .sec-title {
     font-size: 48px;
+    line-height: 58px;
+  }
+  .hero-content {
+    text-align: center;
+    margin: 0 0 64px;
+  }
+  .hero-content .hero-title {
+    font-size: 70px;
+    line-height: 80px;
+  }
+  .hero-content .hero-site-info {
+    width: 100%;
+    justify-content: center;
+  }
+  .hero-img img {
+    width: 100%;
+  }
+  .single-practice-area {
+    margin-bottom: 64px;
+  }
+  .about-section {
+    padding-bottom: 100px;
+  }
+  .about-section .sec-content {
+    margin-top: 140px;
+  }
+  .history-tab-details .history-tab-content {
+    padding: 70px;
+  }
+  .history-tab-details .history-tab-content a {
+    margin-top: 40px;
+  }
+  .history-tab-details .history-tab-content h3 {
+    font-size: 40px;
+  }
+  .history-call {
+    padding-top: 220px;
+  }
+  .testimonial-slider .owl-dots {
+    margin-top: 0px;
+  }
+  .contact-section .sec-content h3.sec-title {
+    margin-top: 0;
+  }
+  .contact-section .sec-content ul.law-contact {
+    margin-top: 16px;
+  }
+  .contact-section .law-cform {
+    margin-top: 64px;
+  }
+  .footer-copyright {
+    text-align: center;
+  }
+  .footer-copyright .footer-copyright-links {
+    float: inherit;
+    margin-top: 12px;
   }
 }
 
 /*For Wide Mobile Layout*/
 @media (max-width: 767px) {
+  .pb-100 {
+    padding-bottom: 40px;
+  }
+  .pt-100 {
+    padding-top: 40px;
+  }
+
   .ptb-140 {
     padding-top: 80px;
     padding-bottom: 80px;
   }
+  .pb-140 {
+    padding-bottom: 80px;
+  }
+  .pt-140 {
+    padding-top: 80px;
+  }
+  .pt-240 {
+    padding-top: 180px;
+  }
+
   .sec-title {
     font-size: 36px;
+    line-height: 46px;
+  }
+  .hero-content {
+    margin: 0;
+  }
+  .hero-content .hero-title {
+    font-size: 48px;
+    line-height: 56px;
+    margin: 16px 0 20px;
+  }
+  .hero-content a {
+    margin: 16px 0 44px 0px;
+  }
+  .hero-content .hero-site-info {
+    width: 100%;
+  }
+  ul.hero-site-info li.hero-single-site-info h3 {
+    font-size: 32px;
+    line-height: 44px;
+  }
+  ul.hero-site-info li.site-info1 {
+    padding-right: 36px;
+  }
+  ul.hero-site-info li.site-info2 {
+    padding-left: 36px;
+  }
+  .hero-img {
+    display: none;
+  }
+  .about-section .sec-content {
+    margin-top: 100px;
+  }
+  .history-tab-details .history-tab-content {
+    padding: 50px;
+  }
+  .single-attorney {
+    margin-bottom: 40px;
+  }
+  .form-style-2 {
+    padding: 40px;
+  }
+  form.law-cform .contact-field input,
+  form.law-cform .contact-field textarea {
+    padding: 10px 24px;
   }
 }
 

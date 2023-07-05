@@ -166,6 +166,9 @@ p {
   margin-bottom: 15px;
   line-height: 28px;
 }
+// img {
+//   max-width: 100%;
+// }
 
 a,
 .btn,
@@ -483,23 +486,6 @@ input[type="color"] {
 /*----------------------------------------*/
 /*  00. SPACING CSS START
 /*----------------------------------------*/
-.pt-240 {
-  padding-top: 240px;
-}
-
-.pb-140 {
-  padding-bottom: 140px;
-}
-.pt-140 {
-  padding-top: 140px;
-}
-.ptb-140 {
-  padding-top: 140px;
-  padding-bottom: 140px;
-}
-.mb-40 {
-  margin-bottom: 40px;
-}
 
 /*--
     - Page title
@@ -883,7 +869,7 @@ input[type="color"] {
   top: 42px;
   font-size: 14px;
   font-size: 14px;
-  color: var(--tp-grey-2);
+  color: var(--mt-text-light-white);
   font-family: "Font Awesome 6 Pro";
 }
 .main-menu ul li a {
@@ -961,11 +947,6 @@ input[type="color"] {
   opacity: 1;
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-}
-
 .menu-padding {
   padding-left: 40px;
 }
@@ -1001,6 +982,11 @@ input[type="color"] {
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .header-info .info-item-right {
     margin-right: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .header-area .row {
+    margin: 0 0;
   }
 }
 
@@ -1399,7 +1385,7 @@ ul.hero-site-info {
   padding-bottom: 56px;
 }
 .single-practice-area {
-  padding: 15px 0;
+  margin-bottom: 40px;
   i {
     font-size: 60px;
     color: var(--mt-brown);
@@ -1425,11 +1411,17 @@ ul.hero-site-info {
   height: 100%;
   .about-img-one {
     width: 83%;
+    img {
+      width: 100%;
+    }
   }
   .about-img-two {
     position: absolute;
-    width: 48%;
-    top: 40%;
+    width: 45%;
+    top: 42%;
+    img {
+      width: 100%;
+    }
     a.btn-play {
       height: 88px;
       width: 88px;
@@ -1830,6 +1822,7 @@ ul.hero-site-info {
       border-radius: 50%;
       display: inline-block;
       margin-right: 16px;
+      margin-bottom: 20px;
       &.active {
         background: var(--mt-brown);
       }
@@ -1923,6 +1916,7 @@ form.law-cform {
 /*  Blog sec CSS START
 /*----------------------------------------*/
 .blog-item {
+  margin-bottom: 40px;
   .blog-thumb {
     a {
       img {
@@ -2030,6 +2024,7 @@ footer.footer {
   }
 }
 .footer-widget {
+  margin-bottom: 64px;
   p,
   a {
     color: var(--mt-text-dark-white);
@@ -2073,6 +2068,9 @@ footer.footer {
       ul {
         li {
           margin-bottom: 8px;
+          a {
+            display: block;
+          }
           &:last-child {
             margin-bottom: 0px;
           }
@@ -2087,7 +2085,7 @@ footer.footer {
   margin: 0;
 }
 .footer-copyright {
-  margin: 40px 0 62px;
+  padding: 40px 0 62px;
   p {
     color: var(--mt-text-dark-white);
   }

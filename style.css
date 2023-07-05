@@ -470,27 +470,6 @@ input[type=color] {
 /*----------------------------------------*/
 /*  00. SPACING CSS START
 /*----------------------------------------*/
-.pt-240 {
-  padding-top: 240px;
-}
-
-.pb-140 {
-  padding-bottom: 140px;
-}
-
-.pt-140 {
-  padding-top: 140px;
-}
-
-.ptb-140 {
-  padding-top: 140px;
-  padding-bottom: 140px;
-}
-
-.mb-40 {
-  margin-bottom: 40px;
-}
-
 /*--
     - Page title
 -----------------------------------------*/
@@ -649,7 +628,7 @@ input[type=color] {
   top: 42px;
   font-size: 14px;
   font-size: 14px;
-  color: var(--tp-grey-2);
+  color: var(--mt-text-light-white);
   font-family: "Font Awesome 6 Pro";
 }
 
@@ -776,6 +755,11 @@ input[type=color] {
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .header-info .info-item-right {
     margin-right: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .header-area .row {
+    margin: 0 0;
   }
 }
 /*----------------------------------------*/
@@ -1172,7 +1156,7 @@ ul.hero-site-info li.site-info2 {
 }
 
 .single-practice-area {
-  padding: 15px 0;
+  margin-bottom: 40px;
 }
 .single-practice-area i {
   font-size: 60px;
@@ -1201,10 +1185,16 @@ ul.hero-site-info li.site-info2 {
 .about-sec-img .about-img-one {
   width: 83%;
 }
+.about-sec-img .about-img-one img {
+  width: 100%;
+}
 .about-sec-img .about-img-two {
   position: absolute;
-  width: 48%;
-  top: 40%;
+  width: 45%;
+  top: 42%;
+}
+.about-sec-img .about-img-two img {
+  width: 100%;
 }
 .about-sec-img .about-img-two a.btn-play {
   height: 88px;
@@ -1565,6 +1555,7 @@ ul.hero-site-info li.site-info2 {
   border-radius: 50%;
   display: inline-block;
   margin-right: 16px;
+  margin-bottom: 20px;
 }
 .testimonial-slider .owl-dots .owl-dot.active {
   background: var(--mt-brown);
@@ -1649,6 +1640,9 @@ form.law-cform button.mt-btn-form {
 /*----------------------------------------*/
 /*  Blog sec CSS START
 /*----------------------------------------*/
+.blog-item {
+  margin-bottom: 40px;
+}
 .blog-item .blog-thumb a img {
   width: 100%;
 }
@@ -1742,6 +1736,9 @@ footer.footer .section-overlay {
   border: none;
 }
 
+.footer-widget {
+  margin-bottom: 64px;
+}
 .footer-widget p,
 .footer-widget a {
   color: var(--mt-text-dark-white);
@@ -1783,6 +1780,9 @@ footer.footer .section-overlay {
 .footer-widget .footer-widget-content .footer-links ul li {
   margin-bottom: 8px;
 }
+.footer-widget .footer-widget-content .footer-links ul li a {
+  display: block;
+}
 .footer-widget .footer-widget-content .footer-links ul li:last-child {
   margin-bottom: 0px;
 }
@@ -1794,7 +1794,7 @@ footer.footer .section-overlay {
 }
 
 .footer-copyright {
-  margin: 40px 0 62px;
+  padding: 40px 0 62px;
 }
 .footer-copyright p {
   color: var(--mt-text-dark-white);
