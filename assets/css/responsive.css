@@ -188,7 +188,7 @@
     position: absolute;
     width: inherit;
     padding: 14px 20px;
-    right: 0;
+    right: -1px;
     border-radius: 0 30px 30px 0;
   }
 }
