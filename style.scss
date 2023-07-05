@@ -108,7 +108,9 @@ body {
   color: var(--mt-text-color);
   line-height: 28px;
 }
-
+img {
+  max-width: 100%;
+}
 h1,
 h2,
 h3,
