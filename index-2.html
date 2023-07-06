@@ -64,7 +64,7 @@
     <header id="header-sticky" class="header-area">
       <div class="container-fluid">
         <div class="row align-items-center">
-          <div class="col-xl-2 col-md-6 col-md-6 col-6 px-0">
+          <div class="col-xl-2 col-md-6 col-6 px-0">
             <div class="logo-area">
               <div class="logo">
                 <a href="index.html"
@@ -73,7 +73,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-6 col-md-6 col-md-6 col-6">
+          <div class="col-xl-6 col-md-6 col-6 d-none d-xl-block">
             <div class="menu-area menu-padding">
               <div class="main-menu">
                 <nav id="mobile-menu">
@@ -83,38 +83,50 @@
                       <ul class="sub-menu">
                         <li><a href="index.html">Home One</a></li>
                         <li><a href="index-2.html">Home Two</a></li>
-                        <li><a href="index-3.html">Home Three</a></li>
                       </ul>
                     </li>
                     <li class="has-dropdown">
                       <a href="about.html">Pages</a>
                       <ul class="sub-menu">
                         <li><a href="about.html">About Us</a></li>
-                        <li><a href="team.html">Team</a></li>
-                        <li><a href="team-details.html">Team Details</a></li>
-                        <li><a href="portfolio.html">Cases</a></li>
+                        <li><a href="attorneys.html">Team</a></li>
+                        <li><a href="attorney-single.html">Team Details</a></li>
+                        <li><a href="practice.html">Practice</a></li>
                         <li>
-                          <a href="portfolio-details.html">Cases Details</a>
+                          <a href="practice-details.html">Practice Details</a>
                         </li>
                         <li><a href="pricing.html">pricing Page</a></li>
                         <li><a href="faq.html">FAQ Page</a></li>
+                        <li><a href="404.html">404 Page</a></li>
                       </ul>
                     </li>
                     <li class="has-dropdown">
-                      <a href="services.html">Case Studies</a>
+                      <a href="case-studies.html">Case Studies</a>
                       <ul class="sub-menu">
-                        <li><a href="services.html">Case Studies</a></li>
+                        <li><a href="case-studies.html">Case Studies</a></li>
                         <li>
-                          <a href="services-details.html"
-                            >Case Studies Details</a
-                          >
+                          <a href="case-single.html">Case Studies Details</a>
                         </li>
                       </ul>
                     </li>
                     <li class="has-dropdown">
-                      <a href="blog.html">Blogs</a>
+                      <a href="blogs-with-sidebar.html">Blogs</a>
                       <ul class="sub-menu">
-                        <li><a href="blog.html">Blogs</a></li>
+                        <li>
+                          <a href="blogs-with-sidebar.html"
+                            >Blogs With Sidebar</a
+                          >
+                        </li>
+                        <li>
+                          <a href="blogs-with-sidebar2.html"
+                            >Blogs With Sidebar 2</a
+                          >
+                        </li>
+                        <li>
+                          <a href="blogs-without-sidebar.html"
+                            >Blogs Without Sidebar</a
+                          >
+                        </li>
                         <li><a href="blog-details.html">Blog Details</a></li>
                       </ul>
                     </li>
@@ -123,15 +135,8 @@
                 </nav>
               </div>
             </div>
-            <div class="side-menu-icon d-lg-none text-end">
-              <a
-                href="javascript:void(0)"
-                class="info-toggle-btn f-right sidebar-toggle-btn"
-                ><i class="fal fa-bars"></i
-              ></a>
-            </div>
           </div>
-          <div class="col-xl-4 d-none d-lg-block px-0">
+          <div class="col-6 col-xl-4 px-0">
             <div class="header-info f-right">
               <div class="info-item info-item-right d-flex align-items-center">
                 <div class="social-icon">
@@ -143,6 +148,14 @@
               <div class="info-item">
                 <a href="#" class="mt-btn mt-btn-fc">Free Consultation</a>
               </div>
+            </div>
+            <!-- side-menu-icon-active -->
+            <div class="side-menu-icon text-end">
+              <a
+                href="javascript:void(0)"
+                class="info-toggle-btn f-right sidebar-toggle-btn"
+                ><i class="fal fa-bars"></i
+              ></a>
             </div>
           </div>
         </div>
@@ -233,7 +246,7 @@
         <div class="section-overlay pt-240 pb-140">
           <div class="container">
             <div class="row">
-              <div class="col-md-7">
+              <div class="col-lg-7">
                 <div class="hero-content">
                   <h1 class="hero-title text-white">
                     We Are Expert in Legal Specialties
@@ -247,16 +260,17 @@
                     >Get a Free Consultation
                     <i class="fa-sharp fa-solid fa-arrow-up-right"></i
                   ></a>
-                  <a href="#" class="mt-btn mt-btn-white">Practice Area</a>
-                  <div class="hero-site-info">
-                    <div
-                      class="hero-single-site-info site-info1 site-rating-info"
-                    >
+                  <a href="#" class="mt-btn mt-btn-white ms-3">Practice Area</a>
+                  <ul class="hero-site-info">
+                    <li class="hero-single-site-info site-info1 d-flex">
                       <div class="site-rating-img">
                         <img src="assets/img/hero/google.png" alt="google" />
                       </div>
                       <div class="site-reting">
-                        <span>(5.0) Google Rating 285 Reviews </span>
+                        <ul class="site-retting-info d-block">
+                          <li>(5.0) Google Rating</li>
+                          <li>285 Reviews</li>
+                        </ul>
                         <ul class="reting mt-2">
                           <li><i class="ph-fill ph-star"></i></li>
                           <li><i class="ph-fill ph-star"></i></li>
@@ -265,15 +279,17 @@
                           <li><i class="ph-fill ph-star"></i></li>
                         </ul>
                       </div>
-                    </div>
-                    <div
-                      class="hero-single-site-info site-info1 site-rating-info"
-                    >
+                    </li>
+                    <li class="hero-single-site-info site-info3"></li>
+                    <li class="hero-single-site-info site-info2 d-flex">
                       <div class="site-rating-img">
                         <img src="assets/img/hero/yelp.png" alt="google" />
                       </div>
                       <div class="site-reting">
-                        <span>(4.9) Clutch Rating 137 Reviews </span>
+                        <ul class="site-retting-info d-block">
+                          <li>(4.9) Yelp Rating</li>
+                          <li>137 Reviews</li>
+                        </ul>
                         <ul class="reting mt-2">
                           <li><i class="ph-fill ph-star"></i></li>
                           <li><i class="ph-fill ph-star"></i></li>
@@ -282,11 +298,11 @@
                           <li><i class="ph-fill ph-star-half"></i></li>
                         </ul>
                       </div>
-                    </div>
-                  </div>
+                    </li>
+                  </ul>
                 </div>
               </div>
-              <div class="col-md-5">
+              <div class="col-lg-5">
                 <div class="hero-img w-img">
                   <img src="assets/img/hero/hero-img2.png" alt="hero-img" />
                 </div>
@@ -294,60 +310,61 @@
             </div>
           </div>
         </div>
-        <div class="abc">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-4">
-                <!-- hero-single-feature1 -->
-                <div class="hero-single-feature">
-                  <div class="hero-sf-content">
-                    <h4 class="heading-style2">Committed to Client</h4>
-                    <p>
-                      Auit zaer odit aut fugit quia magni eos ratione voluptatem
-                      reruo
-                    </p>
-                  </div>
-                  <div class="hero-sf-icon">
-                    <i class="flaticon-badge"></i>
-                  </div>
+      </section>
+      <!-- hero section end -->
+      <!-- atorney feature info section start -->
+      <section class="attorney-feature-info pb-140 bg-blue">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <!-- hero-single-feature1 -->
+              <div class="hero-single-feature">
+                <div class="hero-sf-content">
+                  <h4 class="heading-style2">Committed to Client</h4>
+                  <p>
+                    Auit zaer odit aut fugit quia magni eos ratione voluptatem
+                    reruo
+                  </p>
+                </div>
+                <div class="hero-sf-icon">
+                  <i class="flaticon-badge"></i>
                 </div>
               </div>
-              <div class="col-md-4">
-                <!-- hero-single-feature2 -->
-                <div class="hero-single-feature">
-                  <div class="hero-sf-content">
-                    <h4 class="heading-style2">Committed to Client</h4>
-                    <p>
-                      Auit zaer odit aut fugit quia magni eos ratione voluptatem
-                      reruo
-                    </p>
-                  </div>
-                  <div class="hero-sf-icon">
-                    <i class="flaticon-jury"></i>
-                  </div>
+            </div>
+            <div class="col-md-4">
+              <!-- hero-single-feature2 -->
+              <div class="hero-single-feature">
+                <div class="hero-sf-content">
+                  <h4 class="heading-style2">Certified Lawyers</h4>
+                  <p>
+                    Auit zaer odit aut fugit quia magni eos ratione voluptatem
+                    reruo
+                  </p>
+                </div>
+                <div class="hero-sf-icon">
+                  <i class="flaticon-jury"></i>
                 </div>
               </div>
-              <div class="col-md-4">
-                <!-- hero-single-feature3 -->
-                <div class="hero-single-feature">
-                  <div class="hero-sf-content">
-                    <h4 class="heading-style2">Committed to Client</h4>
-                    <p>
-                      Auit zaer odit aut fugit quia magni eos ratione voluptatem
-                      reruo
-                    </p>
-                  </div>
-                  <div class="hero-sf-icon">
-                    <i class="flaticon-auction"></i>
-                  </div>
+            </div>
+            <div class="col-md-4">
+              <!-- hero-single-feature3 -->
+              <div class="hero-single-feature">
+                <div class="hero-sf-content">
+                  <h4 class="heading-style2">Legal Advices</h4>
+                  <p>
+                    Auit zaer odit aut fugit quia magni eos ratione voluptatem
+                    reruo
+                  </p>
+                </div>
+                <div class="hero-sf-icon">
+                  <i class="flaticon-auction"></i>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- hero section end -->
-
+      <!-- atorney feature info section end -->
       <!-- success section start -->
       <section class="success-sec ptb-140 bg-light-white">
         <div class="container">

@@ -1,6 +1,10 @@
 /*For bigger screen then normal 1500px desktop*/
 
-@media (min-width: 1200px) and (max-width: 1700px) {
+@media (min-width: 1280px) and (max-width: 1700px) {
+  .hero-sec-home2 .section-overlay .hero-img {
+    width: 54%;
+    right: 0;
+  }
 }
 
 /*For bigger screen then normal 960px desktop*/

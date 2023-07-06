@@ -388,8 +388,7 @@ input[type="color"] {
   transform: scaleX(1);
 }
 
-.mt-btn:hover,
-.mt-btn:focus {
+.mt-btn:hover {
   color: var(--mt-text-light-white);
   border-radius: 5px;
 }
@@ -794,6 +793,7 @@ input[type="color"] {
   margin: 0 80px;
   border-bottom: 1px solid var(--mt-bg-light-white);
 }
+
 .header__sticky {
   position: fixed !important;
   left: 0;
@@ -1350,9 +1350,6 @@ ul.hero-site-info {
       font-size: 44px;
       line-height: 50px;
     }
-    span {
-      color: var(--mt-text-dark-white);
-    }
   }
   li.site-info1 {
     padding-right: 48px;
@@ -1386,11 +1383,17 @@ ul.hero-site-info {
     }
   }
 }
-// .hero-sec-home2 {
-//   .section-overlay {
-//     background: url(/assets/img/hero/hero-img2.png) top right/cover no-repeat;
-//   }
-// }
+.hero-sec-home2 {
+  .section-overlay {
+    position: relative;
+    .hero-img {
+      position: absolute;
+      right: 5%;
+      bottom: 0;
+      width: 47%;
+    }
+  }
+}
 /*----------------------------------------*/
 /*  00. Practice Section CSS START
 /*----------------------------------------*/
