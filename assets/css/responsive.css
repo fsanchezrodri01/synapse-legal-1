@@ -4,7 +4,27 @@
 }
 
 /*For bigger screen then normal 960px desktop*/
-@media only screen and (max-width: 1199px) {
+@media only screen and (max-width: 1280px) {
+  .hero-content .hero-title {
+    font-size: 80px;
+    line-height: 88px;
+  }
+  .hero-content .hero-site-info {
+    width: 90%;
+  }
+  ul.hero-site-info li.hero-single-site-info h3 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .history-tab-details .history-tab-content {
+    padding: 80px 80px 80px 50px;
+  }
+  .history-tab-details .history-tab-content a {
+    margin-top: 36px;
+  }
+  .about-section .sec-content {
+    margin-top: 170px;
+  }
 }
 /*For Tablet Layout*/
 @media (max-width: 991px) {
@@ -62,7 +82,7 @@
     padding: 70px;
   }
   .history-tab-details .history-tab-content a {
-    margin-top: 40px;
+    margin-top: 30px;
   }
   .history-tab-details .history-tab-content h3 {
     font-size: 40px;
@@ -121,7 +141,7 @@
     line-height: 46px;
   }
   .hero-content {
-    margin: 0;
+    margin: 0 0 44px;
   }
   .hero-content .hero-title {
     font-size: 48px;
@@ -144,14 +164,18 @@
   ul.hero-site-info li.site-info2 {
     padding-left: 36px;
   }
-  .hero-img {
-    display: none;
+  .single-practice-area {
+    margin-bottom: 40px;
   }
+
   .about-section .sec-content {
     margin-top: 100px;
   }
   .history-tab-details .history-tab-content {
     padding: 50px;
+  }
+  .history-tab-details .history-tab-content a {
+    margin-top: 16px;
   }
   .ingle-case-content {
     text-align: center;
@@ -167,7 +191,7 @@
     text-align: center;
   }
   .form-style-2 {
-    padding: 40px;
+    padding: 28px;
   }
   form.law-cform .contact-field input,
   form.law-cform .contact-field textarea {
@@ -198,7 +222,20 @@
 /*For 320-384px up Mobile Layout*/
 
 @media (max-width: 479px) {
+  .history-tab-details .history-tab-content {
+    padding: 40px;
+  }
+  .history-tab-details .history-tab-content a {
+    margin-top: 14px;
+  }
   .achivement-logos img {
     margin-right: 8px;
+  }
+  .footer-copyright .footer-copyright-links {
+    margin-top: 8px;
+  }
+  .footer-copyright-links a {
+    margin-right: 12px;
+    font-size: 14px;
   }
 }
