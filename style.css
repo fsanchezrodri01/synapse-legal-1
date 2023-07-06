@@ -756,6 +756,16 @@ input[type=color] {
   margin-right: 40px;
 }
 
+@media (max-width: 1360px) {
+  .header-info {
+    display: none;
+  }
+}
+@media (min-width: 1360px) {
+  .side-menu-icon {
+    display: none;
+  }
+}
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .header-info .info-item-right {
     margin-right: 20px;
@@ -1157,6 +1167,7 @@ ul.hero-site-info li.site-info2 {
 /*----------------------------------------*/
 .practice-section {
   padding-bottom: 56px;
+  background-image: url(assets/img/img-bg3.png);
 }
 
 .single-practice-area {

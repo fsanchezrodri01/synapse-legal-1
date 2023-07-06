@@ -113,7 +113,9 @@
   .pt-240 {
     padding-top: 180px;
   }
-
+  #header-sticky {
+    padding: 0 16px;
+  }
   .sec-title {
     font-size: 36px;
     line-height: 46px;
