@@ -40,6 +40,12 @@
   .about-section .sec-content {
     margin-top: 170px;
   }
+  .location-map {
+    margin-right: 0;
+  }
+  .contact-section .contact-form-with-map {
+    margin-top: 70px;
+  }
 }
 /*For Tablet Layout*/
 @media (max-width: 991px) {
@@ -147,6 +153,12 @@
   }
   .attorney-slider .single-attorney {
     margin-bottom: 0;
+  }
+  .contact-section .contact-form-with-map form.law-cform {
+    margin-top: 0;
+  }
+  .contact-section .contact-form-with-map {
+    margin-top: 50px;
   }
 }
 
