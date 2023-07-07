@@ -5,16 +5,25 @@
     width: 54%;
     right: 0;
   }
+  .attorney-slider {
+    margin-top: 33px;
+  }
+  .attorney-slider .single-attorney {
+    margin-bottom: 24px;
+  }
 }
 
 /*For bigger screen then normal 960px desktop*/
 @media only screen and (max-width: 1280px) {
   .hero-content .hero-title {
-    font-size: 80px;
-    line-height: 88px;
+    font-size: 74px;
+    line-height: 86px;
   }
   .hero-content .hero-site-info {
     width: 90%;
+  }
+  .hero-sec-home2 .hero-content .hero-site-info {
+    width: 100%;
   }
   ul.hero-site-info li.hero-single-site-info h3 {
     font-size: 36px;
@@ -26,6 +35,8 @@
   .history-tab-details .history-tab-content a {
     margin-top: 36px;
   }
+}
+@media only screen and (max-width: 1200px) {
   .about-section .sec-content {
     margin-top: 170px;
   }
@@ -73,8 +84,8 @@
   .hero-img img {
     width: 100%;
   }
-  .single-practice-area {
-    margin-bottom: 64px;
+  .attorney-feature-info .hero-single-feature {
+    margin-bottom: 24px;
   }
   .about-section {
     padding-bottom: 100px;
@@ -94,6 +105,10 @@
   .history-call {
     padding-top: 220px;
   }
+  .single-attorney {
+    margin-bottom: 40px;
+  }
+
   .testimonial-slider .owl-dots {
     margin-top: 0px;
   }
@@ -112,6 +127,26 @@
   .footer-copyright .footer-copyright-links {
     float: inherit;
     margin-top: 12px;
+  }
+  /* home 2 */
+  .success-sec .sccess-info h4 {
+    font-size: 34px;
+    line-height: 44px;
+  }
+  .single-case-info {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .single-plan {
+    text-align: center;
+  }
+  .attorney-slider {
+    -webkit-transform: inherit;
+    transform: inherit;
+    margin-top: 0;
+  }
+  .attorney-slider .single-attorney {
+    margin-bottom: 0;
   }
 }
 
@@ -168,10 +203,6 @@
   ul.hero-site-info li.site-info2 {
     padding-left: 36px;
   }
-  .single-practice-area {
-    margin-bottom: 40px;
-  }
-
   .about-section .sec-content {
     margin-top: 100px;
   }
@@ -187,9 +218,6 @@
   .history-tab-details .history-tab-content h3 {
     font-size: 32px;
     line-height: 40px;
-  }
-  .single-attorney {
-    margin-bottom: 40px;
   }
   .single-testimonial {
     text-align: center;
