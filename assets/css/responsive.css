@@ -134,7 +134,11 @@
     float: inherit;
     margin-top: 12px;
   }
-  /* home 2 */
+  /* home page 2 */
+  .hero-sec-home2 .section-overlay .hero-img {
+    position: inherit;
+    width: 100%;
+  }
   .success-sec .sccess-info h4 {
     font-size: 34px;
     line-height: 44px;
@@ -159,6 +163,14 @@
   }
   .contact-section .contact-form-with-map {
     margin-top: 50px;
+  }
+  /* inner page */
+  .page-title-area .page-title-wrappper {
+    margin: 200px 0 100px;
+  }
+  .page-title-wrappper h2.page-title {
+    font-size: 70px;
+    line-height: 78px;
   }
 }
 
@@ -260,6 +272,17 @@
     padding: 14px 20px;
     right: -1px;
     border-radius: 0 30px 30px 0;
+  }
+  .case-slider .owl-nav {
+    display: none;
+  }
+  /* inner page */
+  .page-title-area .page-title-wrappper {
+    margin: 180px 0 80px;
+  }
+  .page-title-wrappper h2.page-title {
+    font-size: 50px;
+    line-height: 58px;
   }
 }
 

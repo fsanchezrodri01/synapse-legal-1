@@ -499,6 +499,9 @@ input[type=color] {
   display: inline-block;
   padding-right: 28px;
 }
+.page-title-wrappper ul.breadcrumb-menu li.breadcrumb-menu-item:last-child {
+  padding-right: 0;
+}
 .page-title-wrappper ul.breadcrumb-menu li.breadcrumb-menu-item a {
   color: var(--mt-text-dark-white);
   text-decoration: none;

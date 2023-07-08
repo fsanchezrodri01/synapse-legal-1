@@ -518,7 +518,9 @@ input[type="color"] {
       position: relative;
       display: inline-block;
       padding-right: 28px;
-
+      &:last-child {
+        padding-right: 0;
+      }
       a {
         color: var(--mt-text-dark-white);
         text-decoration: none;

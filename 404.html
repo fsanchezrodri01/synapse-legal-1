@@ -34,6 +34,7 @@
     <link rel="stylesheet" href="assets/css/font-awesome-pro.css" />
     <link rel="stylesheet" href="assets/css/spacing.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
   </head>
   <body>
     <!--[if lte IE 9]>
@@ -63,7 +64,7 @@
     <header id="header-sticky" class="header-area">
       <div class="container-fluid">
         <div class="row align-items-center">
-          <div class="col-xl-2 col-lg-2 col-md-6 col-6 px-0">
+          <div class="col-xl-2 col-md-6 col-6 px-0">
             <div class="logo-area">
               <div class="logo">
                 <a href="index.html"
@@ -72,7 +73,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-7 col-lg-6 col-md-6 col-6">
+          <div class="col-xl-6 col-md-6 col-6 d-none d-xl-block">
             <div class="menu-area menu-padding">
               <div class="main-menu">
                 <nav id="mobile-menu">
@@ -82,55 +83,60 @@
                       <ul class="sub-menu">
                         <li><a href="index.html">Home One</a></li>
                         <li><a href="index-2.html">Home Two</a></li>
-                        <li><a href="index-3.html">Home Three</a></li>
                       </ul>
                     </li>
                     <li class="has-dropdown">
                       <a href="about.html">Pages</a>
                       <ul class="sub-menu">
                         <li><a href="about.html">About Us</a></li>
-                        <li><a href="team.html">Team</a></li>
-                        <li><a href="team-details.html">Team Details</a></li>
-                        <li><a href="portfolio.html">Cases</a></li>
+                        <li><a href="attorneys.html">Team</a></li>
+                        <li><a href="attorney-single.html">Team Details</a></li>
+                        <li><a href="practice.html">Practice</a></li>
                         <li>
-                          <a href="portfolio-details.html">Cases Details</a>
+                          <a href="practice-details.html">Practice Details</a>
                         </li>
                         <li><a href="pricing.html">pricing Page</a></li>
                         <li><a href="faq.html">FAQ Page</a></li>
+                        <li><a href="404.html">404 Page</a></li>
                       </ul>
                     </li>
                     <li class="has-dropdown">
-                      <a href="services.html">Case Studies</a>
+                      <a href="case-studies.html">Case Studies</a>
                       <ul class="sub-menu">
-                        <li><a href="services.html">Case Studies</a></li>
+                        <li><a href="case-studies.html">Case Studies</a></li>
                         <li>
-                          <a href="services-details.html"
-                            >Case Studies Details</a
-                          >
+                          <a href="case-single.html">Case Studies Details</a>
                         </li>
                       </ul>
                     </li>
                     <li class="has-dropdown">
-                      <a href="blog.html">Blogs</a>
+                      <a href="blogs-with-sidebar.html">Blogs</a>
                       <ul class="sub-menu">
-                        <li><a href="blog.html">Blogs</a></li>
+                        <li>
+                          <a href="blogs-with-sidebar.html"
+                            >Blogs With Sidebar</a
+                          >
+                        </li>
+                        <li>
+                          <a href="blogs-with-sidebar2.html"
+                            >Blogs With Sidebar 2</a
+                          >
+                        </li>
+                        <li>
+                          <a href="blogs-without-sidebar.html"
+                            >Blogs Without Sidebar</a
+                          >
+                        </li>
                         <li><a href="blog-details.html">Blog Details</a></li>
                       </ul>
                     </li>
-                    <li><a href="contact.html" class="smoothed">Contact</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                   </ul>
                 </nav>
               </div>
             </div>
-            <div class="side-menu-icon d-lg-none text-end">
-              <a
-                href="javascript:void(0)"
-                class="info-toggle-btn f-right sidebar-toggle-btn"
-                ><i class="fal fa-bars"></i
-              ></a>
-            </div>
           </div>
-          <div class="col-xl-3 col-lg-4 d-none d-lg-block px-0">
+          <div class="col-6 col-xl-4 px-0">
             <div class="header-info f-right">
               <div class="info-item info-item-right">
                 <h5>
@@ -141,6 +147,14 @@
               <div class="info-item">
                 <a href="#" class="mt-btn mt-btn-fc">Free Consultation</a>
               </div>
+            </div>
+            <!-- side-menu-icon-active -->
+            <div class="side-menu-icon text-end">
+              <a
+                href="javascript:void(0)"
+                class="info-toggle-btn f-right sidebar-toggle-btn"
+                ><i class="fal fa-bars"></i
+              ></a>
             </div>
           </div>
         </div>
@@ -159,10 +173,10 @@
         <div class="sidebar__content">
           <div class="sidebar__logo mb-40">
             <a href="index.html">
-              <img src="assets/img/logo/logo-black.png" alt="logo" />
+              <img src="assets/img/logo/logo2.png" alt="logo" />
             </a>
           </div>
-          <div class="sidebar__search mb-25">
+          <div class="sidebar__search">
             <form action="#">
               <input type="text" placeholder="What are you searching for?" />
               <button type="submit"><i class="far fa-search"></i></button>
@@ -173,7 +187,7 @@
             <h4>Contact Info</h4>
             <ul>
               <li class="d-flex align-items-center">
-                <div class="sidebar__contact-icon mr-15">
+                <div class="sidebar__contact-icon">
                   <i class="fal fa-map-marker-alt"></i>
                 </div>
                 <div class="sidebar__contact-text">
@@ -185,15 +199,15 @@
                 </div>
               </li>
               <li class="d-flex align-items-center">
-                <div class="sidebar__contact-icon mr-15">
+                <div class="sidebar__contact-icon">
                   <i class="far fa-phone"></i>
                 </div>
                 <div class="sidebar__contact-text">
-                  <a href="tel:+012-345-6789">088889797697</a>
+                  <a href="tel:+012-345-6789">+1 (888) 423-7576</a>
                 </div>
               </li>
               <li class="d-flex align-items-center">
-                <div class="sidebar__contact-icon mr-15">
+                <div class="sidebar__contact-icon">
                   <i class="fal fa-envelope"></i>
                 </div>
                 <div class="sidebar__contact-text">
