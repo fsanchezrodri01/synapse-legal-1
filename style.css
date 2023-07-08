@@ -1112,9 +1112,6 @@ input[type=color] {
 .hero-content .hero-site-info .hero-single-site-info .site-rating-img {
   margin-right: 20px;
 }
-.hero-content .hero-site-info .hero-single-site-info .site-rating-img img {
-  width: 56px;
-}
 .hero-content .hero-site-info .hero-single-site-info .site-reting ul.reting li {
   float: left;
   margin-left: 1.5px;
@@ -1135,8 +1132,14 @@ ul.hero-site-info li.site-info1 {
   padding-right: 48px;
   border-right: 1px solid rgba(252, 247, 233, 0.1);
 }
+ul.hero-site-info li.site-info1 .site-rating-img img {
+  width: 56px;
+}
 ul.hero-site-info li.site-info2 {
   padding-left: 48px;
+}
+ul.hero-site-info li.site-info2 .site-rating-img img {
+  width: 45px;
 }
 
 .hero-single-feature {

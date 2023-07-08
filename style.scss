@@ -1326,9 +1326,6 @@ input[type="color"] {
     .hero-single-site-info {
       .site-rating-img {
         margin-right: 20px;
-        img {
-          width: 56px;
-        }
       }
       .site-reting {
         ul.reting {
@@ -1356,9 +1353,19 @@ ul.hero-site-info {
   li.site-info1 {
     padding-right: 48px;
     border-right: 1px solid rgba(252, 247, 233, 0.1);
+    .site-rating-img {
+      img {
+        width: 56px;
+      }
+    }
   }
   li.site-info2 {
     padding-left: 48px;
+    .site-rating-img {
+      img {
+        width: 45px;
+      }
+    }
   }
 }
 //HOME-2 Hero section

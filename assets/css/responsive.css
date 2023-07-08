@@ -276,6 +276,8 @@
   .case-slider .owl-nav {
     display: none;
   }
+  /* home page 2 */
+
   /* inner page */
   .page-title-area .page-title-wrappper {
     margin: 180px 0 80px;
@@ -289,6 +291,17 @@
 /*For 320-384px up Mobile Layout*/
 
 @media (max-width: 479px) {
+  /* .hero-sec-home2 .hero-content .hero-site-info {
+    display: inherit;
+  } */
+  .hero-sec-home2
+    .hero-content
+    .hero-site-info
+    .hero-single-site-info
+    .site-rating-img {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
   .history-tab-details .history-tab-content {
     padding: 40px;
   }
