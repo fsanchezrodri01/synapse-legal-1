@@ -27,6 +27,10 @@
   .hero-content .hero-site-info {
     width: 90%;
   }
+  .hero-sec-home2 .section-overlay .hero-img {
+    width: 54%;
+    right: 0;
+  }
   .hero-sec-home2 .hero-content .hero-site-info {
     width: 100%;
   }
@@ -117,9 +121,15 @@
   .single-attorney {
     margin-bottom: 40px;
   }
-
+  .single-case-info {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .case-slider .single-case-info {
+    margin-bottom: 0;
+  }
   .testimonial-slider .owl-dots {
-    margin-top: 0px;
+    margin-top: 20px;
   }
   .contact-section .sec-content h3.sec-title {
     margin-top: 0;
@@ -143,13 +153,10 @@
     width: 100%;
   }
   .success-sec .sccess-info h4 {
-    font-size: 34px;
+    font-size: 36px;
     line-height: 44px;
   }
-  .single-case-info {
-    margin-bottom: 40px;
-    text-align: center;
-  }
+
   .single-plan {
     text-align: center;
   }
@@ -246,6 +253,7 @@
   .history-tab-details .history-tab-content h3 {
     font-size: 32px;
     line-height: 40px;
+    margin-bottom: 24px;
   }
   .single-testimonial {
     text-align: center;
@@ -280,7 +288,14 @@
   .case-slider .owl-nav {
     display: none;
   }
+  .case-slider .owl-dots {
+    display: block;
+  }
   /* home page 2 */
+  .success-sec .sccess-info h4 {
+    font-size: 32px;
+    line-height: 42px;
+  }
 
   /* inner page */
   .page-title-area .page-title-wrappper {
@@ -308,6 +323,15 @@
   }
   .history-tab-details .history-tab-content {
     padding: 40px;
+  }
+  .history-tab-details .history-tab-content h3 {
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 20px;
+  }
+  .success-sec .sccess-info h4 {
+    font-size: 28px;
+    line-height: 38px;
   }
   .history-tab-details .history-tab-content a {
     margin-top: 14px;
