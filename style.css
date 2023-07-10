@@ -1271,6 +1271,14 @@ ul.hero-site-info li.site-info2 .site-rating-img img {
   margin-bottom: 12px;
 }
 
+.about-section-home1 {
+  padding-bottom: 196px;
+}
+
+.about-section-home2 {
+  padding-bottom: 196px;
+}
+
 /*----------------------------------------*/
 /*  00. Case Studies Section CSS START
 /*----------------------------------------*/
@@ -1992,6 +2000,10 @@ footer.footer .section-overlay {
   line-height: 28px;
   padding-left: 0;
   padding-right: 0;
+}
+
+.faq-sec {
+  padding-bottom: 177px;
 }
 
 /*----------------------------------------*/
