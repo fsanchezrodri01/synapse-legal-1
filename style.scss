@@ -193,11 +193,11 @@ h3,
 h4,
 h5,
 h6 {
-  -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s;
+  -webkit-transition: all 0.2s ease-out 0s;
+  -moz-transition: all 0.2s ease-out 0s;
+  -ms-transition: all 0.2s ease-out 0s;
+  -o-transition: all 0.2s ease-out 0s;
+  transition: all 0.2s ease-out 0s;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -851,6 +851,9 @@ input[type="color"] {
     display: inline-block;
     &:last-child {
       margin-right: 0;
+    }
+    &:hover {
+      color: #bd7e67;
     }
   }
 }
@@ -1738,11 +1741,11 @@ ul.hero-site-info {
       opacity: 0;
       -webkit-transform: scale(0);
       transform: scale(0);
-      -webkit-transition: all 0.3s ease-out 0s;
-      -moz-transition: all 0.3s ease-out 0s;
-      -ms-transition: all 0.3s ease-out 0s;
-      -o-transition: all 0.3s ease-out 0s;
-      transition: all 0.3s ease-out 0s;
+      -webkit-transition: all 0.2s ease-out 0s;
+      -moz-transition: all 0.2s ease-out 0s;
+      -ms-transition: all 0.2s ease-out 0s;
+      -o-transition: all 0.2s ease-out 0s;
+      transition: all 0.2s ease-out 0s;
       overflow: hidden;
       a {
         text-decoration: none;
@@ -1757,11 +1760,10 @@ ul.hero-site-info {
         border: 2px solid var(--mt-text-light-white);
         margin-left: 12px;
         margin-bottom: -58px;
-        -webkit-transition: all 0.3s ease-out 0.2s;
-        -moz-transition: all 0.3s ease-out 0.2s;
-        -ms-transition: all 0.3s ease-out 0.2s;
-        -o-transition: all 0.3s ease-out 0.2s;
-        transition: all 0.3s ease-out 0.2s;
+        &:hover {
+          color: var(--mt-bule);
+          border-color: var(--mt-bule);
+        }
       }
     }
   }
@@ -1971,6 +1973,10 @@ form.law-cform {
   margin-bottom: 40px;
   .blog-thumb {
     a {
+      overflow: hidden;
+      height: 100%;
+      width: 100%;
+      display: inline-block;
       img {
         width: 100%;
       }
@@ -2003,6 +2009,11 @@ form.law-cform {
       a {
         text-decoration: none;
       }
+    }
+  }
+  &:hover {
+    .blog-thumb a img {
+      transform: scale(1.2);
     }
   }
 }
@@ -2113,6 +2124,10 @@ footer.footer {
         float: left;
         &:last-child {
           margin-right: 0;
+        }
+        &:hover {
+          color: #bd7e67;
+          border-color: #bd7e67;
         }
       }
     }

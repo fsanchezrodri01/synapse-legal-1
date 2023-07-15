@@ -342,11 +342,20 @@
   .achivement-logos img {
     margin-right: 8px;
   }
+  .location-map iframe {
+    height: 300px;
+  }
+  .blog-style2 {
+    padding: 50px 30px;
+  }
   .footer-copyright .footer-copyright-links {
     margin-top: 8px;
   }
   .footer-copyright-links a {
     margin-right: 12px;
     font-size: 14px;
+  }
+  .footer-widget .footer-widget-content p.ft-text {
+    margin-right: 0;
   }
 }
