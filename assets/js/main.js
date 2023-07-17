@@ -160,39 +160,14 @@
 
   ////////////////////////////////////////////////////
 
-  /* magnificPopup img view */
-  $(".popup-image").magnificPopup({
-    type: "image",
-    gallery: {
-      enabled: true,
-    },
-  });
-
   /* magnificPopup video view */
-  $(".popup-video").magnificPopup({
+  $(".btn-play").magnificPopup({
     type: "iframe",
   });
 
   ////////////////////////////////////////////////////
   // 14. Wow Js
   new WOW().init();
-
-  ////////////////////////////////////////////////////
-  // 16. Cart Quantity Js
-  $(".cart-minus").click(function () {
-    var $input = $(this).parent().find("input");
-    var count = parseInt($input.val()) - 1;
-    count = count < 1 ? 1 : count;
-    $input.val(count);
-    $input.change();
-    return false;
-  });
-  $(".cart-plus").click(function () {
-    var $input = $(this).parent().find("input");
-    $input.val(parseInt($input.val()) + 1);
-    $input.change();
-    return false;
-  });
 
   ////////////////////////////////////////////////////
   // 17. Show Login Toggle Js

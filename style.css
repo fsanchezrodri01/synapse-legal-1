@@ -1180,11 +1180,6 @@ ul.hero-site-info li.site-info2 .site-rating-img img {
 /*----------------------------------------*/
 /*  00. Practice Section CSS START
 /*----------------------------------------*/
-.practice-section {
-  padding-bottom: 56px;
-  background-image: url(assets/img/img-bg3.png);
-}
-
 .single-practice-area {
   margin-bottom: 40px;
 }
@@ -2056,7 +2051,14 @@ footer.footer .section-overlay {
 }
 
 /*----------------------------------------*/
-/*  00.Attorney Details Sec CSS START
+/*  00.attorneys page CSS START
+/*----------------------------------------*/
+.attorneys-page.attorney-section {
+  padding-bottom: 76px;
+}
+
+/*----------------------------------------*/
+/*  00.Attorney Details page CSS START
 /*----------------------------------------*/
 .attorney-short-bio .attorney-img img {
   width: 100%;
@@ -2137,7 +2139,7 @@ footer.footer .section-overlay {
 }
 
 /*----------------------------------------*/
-/*  00.Case Details Sec CSS START
+/*  00.Case Details page CSS START
 /*----------------------------------------*/
 .cases-short-info .cases-info-title {
   padding-top: 60px;
@@ -2236,6 +2238,13 @@ footer.footer .section-overlay {
 }
 .case-studies-page .single-case-info {
   margin-bottom: 64px;
+}
+
+/*----------------------------------------*/
+/*  00.Practice Page CSS START
+/*----------------------------------------*/
+.practice-page {
+  padding-bottom: 76px;
 }
 
 /*----------------------------------------*/
