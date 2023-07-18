@@ -173,6 +173,7 @@
   }
   .contact-section .contact-form-with-map {
     margin-top: 50px;
+    text-align: center;
   }
   /* inner page */
   .page-title-area .page-title-wrappper {
@@ -191,15 +192,34 @@
   .practice-page {
     padding-bottom: 60px;
   }
-  .practice-details .case-support-info {
+  .case-support-info {
     margin-top: 40px;
-    margin-bottom: 64px;
+    margin-bottom: 100px;
   }
   .case-support-info .support-info-overlay {
     text-align: center;
   }
   .case-support-info .support-info-overlay h4 {
     margin: 38px 0 12px;
+  }
+  .faq-page.contact-section .law-cform {
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
+  .case-studies-page {
+    padding-bottom: 60px;
+  }
+  .case-studies-page .single-case-info {
+    margin-bottom: 40px;
+  }
+  .blog-page .blog-item {
+    margin-bottom: 40px;
+  }
+  .blog-sidebar-wrapper {
+    margin-top: 80px;
+  }
+  .blog-page-style2 .blog-pagination {
+    margin-top: 10px;
   }
 }
 
@@ -356,6 +376,32 @@
   .cases-brife-info .case-img {
     margin-bottom: 48px;
   }
+  .case-studies-page {
+    padding-bottom: 40px;
+  }
+  .case-support-info {
+    margin-top: 40px;
+    margin-bottom: 80px;
+  }
+  .blog-details-thumb {
+    margin-bottom: 40px;
+  }
+  .blog-details-wrapper .blog-comments {
+    margin-top: 60px;
+  }
+  .blog-details-wrapper .autor-info-box {
+    text-align: center;
+  }
+  .blog-details-wrapper .autor-info-box .autor-avatar {
+    margin-right: 0;
+    margin-bottom: 28px;
+  }
+  .blog-details-wrapper .blog-comment-form {
+    margin-top: 20px;
+  }
+  .blog-details-wrapper .comments-avatar img {
+    width: 200px;
+  }
 }
 
 /*For 320-384px up Mobile Layout*/
@@ -411,5 +457,8 @@
   }
   .case-support-info .support-info-overlay h4 {
     margin: 24px 0 12px;
+  }
+  .contact-map-section .contact-map-location iframe {
+    height: 300px;
   }
 }

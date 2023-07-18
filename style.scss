@@ -2518,10 +2518,11 @@ footer.footer {
 /*  00.Case Studies Page CSS START
 /*----------------------------------------*/
 .case-category-list {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   button {
     position: relative;
     margin-right: 40px;
+    margin-bottom: 20px;
     color: var(--mt-brown);
     -webkit-transition: all 0.3s 0s;
     -moz-transition: all 0.3s 0s;
@@ -2633,18 +2634,21 @@ footer.footer {
   .blog-sidebar-wrapper-content {
     .blog-sidebar-search {
       form {
+        position: relative;
         padding: 16px 24px;
         background: var(--mt-bg-light-white);
         border: 1px solid rgba(123, 119, 114, 0.2);
         border-radius: 5px;
         button {
-          margin-right: 8px;
+          position: absolute;
+          right: 24px;
           i {
             color: var(--mt-brown);
             font-weight: 400;
           }
         }
         input {
+          width: 100%;
           background: inherit;
           border: none;
           color: #7b7772;
