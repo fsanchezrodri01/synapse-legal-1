@@ -2400,7 +2400,7 @@ footer.footer {
 }
 .attorney-brife-bio {
   .brife-bio-sec {
-    margin-bottom: 48px;
+    margin-bottom: 40px;
     h3 {
       font-size: 32px;
       line-height: 40px;
@@ -2707,6 +2707,10 @@ footer.footer {
         margin: 8px 8px 0 0;
         display: inline-block;
         border-radius: 25px;
+        &:hover {
+          background: var(--mt-brown);
+          color: var(--mt-text-light-white);
+        }
       }
     }
   }
@@ -2814,9 +2818,13 @@ footer.footer {
         font-size: 14px;
         line-height: 26px;
         text-decoration: none;
-        margin-left: 0;
+        margin: 8px 8px 0 0;
         display: inline-block;
         border-radius: 25px;
+        &:hover {
+          background: var(--mt-brown);
+          color: var(--mt-text-light-white);
+        }
       }
     }
   }
@@ -2894,7 +2902,7 @@ footer.footer {
     }
     form {
       button {
-        margin-top: 55px;
+        margin-top: 36px;
       }
     }
   }
@@ -2915,3 +2923,4 @@ footer.footer {
   }
 }
 /*# sourceMappingURL=style.css.map */
+// preloader css

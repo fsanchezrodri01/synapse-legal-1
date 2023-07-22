@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="assets/css/swiper-bundle.css" />
     <link rel="stylesheet" href="assets/css/backtotop.css" />
     <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/preloader.css" />
     <link rel="stylesheet" href="assets/css/nice-select.css" />
     <link
       rel="stylesheet"
@@ -46,7 +47,9 @@
     <![endif]-->
 
     <!-- Preloader -->
-    <div class="preloader"></div>
+    <div id="preloader">
+      <div id="loader"></div>
+    </div>
     <!-- pre loader area end -->
 
     <!-- back to top start -->
@@ -473,7 +476,7 @@
               <div
                 class="single-practice-two text-center wow fadeInDown"
                 data-wow-delay=".5s"
-                data-wow-duration=".5s"
+                data-wow-duration=".3s"
               >
                 <!-- practice-1 -->
                 <i class="flaticon-certificate"></i>
@@ -486,7 +489,7 @@
               <div
                 class="single-practice-two text-center wow fadeInDown"
                 data-wow-delay="1s"
-                data-wow-duration=".5s"
+                data-wow-duration=".3s"
               >
                 <!-- practice-2 -->
                 <i class="flaticon-bandage"></i>
@@ -499,7 +502,7 @@
               <div
                 class="single-practice-two text-center wow fadeInDown"
                 data-wow-delay="1.5s"
-                data-wow-duration=".5s"
+                data-wow-duration=".3s"
               >
                 <!-- practice-3 -->
                 <i class="flaticon-financial"></i>
@@ -512,7 +515,7 @@
               <div
                 class="single-practice-two text-center wow fadeInDown"
                 data-wow-delay="2s"
-                data-wow-duration=".5s"
+                data-wow-duration=".3s"
               >
                 <!-- practice-4 -->
                 <i class="flaticon-flight"></i>
@@ -525,7 +528,7 @@
               <div
                 class="single-practice-two text-center wow fadeInDown"
                 data-wow-delay="2.5s"
-                data-wow-duration=".5s"
+                data-wow-duration=".3s"
               >
                 <!-- practice-5 -->
                 <i class="flaticon-writing"></i>
@@ -538,7 +541,7 @@
               <div
                 class="single-practice-two text-center wow fadeInDown"
                 data-wow-delay="3s"
-                data-wow-duration=".5s"
+                data-wow-duration=".3s"
               >
                 <!-- practice-6 -->
                 <i class="flaticon-criminal"></i>
@@ -1157,11 +1160,13 @@
       </section>
       <!-- blog section end -->
       <!-- contact section start -->
-      <section class="contact-section contact-map ptb-140 bg-light-white">
+      <section
+        class="contact-section-home2 contact-section contact-map ptb-140 bg-light-white"
+      >
         <div class="container">
           <div class="row">
             <div class="col-xl-7">
-              <div class="location-map wow slideInLeft" data-wow-duration="1s">
+              <div class="location-map wow flipInX" data-wow-duration="1s">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2961.4966722429335!2d-75.80948658444869!3d42.075406879206916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89dae40aa864a7e7%3A0x7a4c41ecda420673!2s66%20Golden%20St%2C%20Kirkwood%2C%20NY%2013795%2C%20USA!5e0!3m2!1sen!2sbd!4v1680634171309!5m2!1sen!2sbd"
                   width="600"
@@ -1175,7 +1180,7 @@
             </div>
             <div class="col-xl-5">
               <div
-                class="contact-form-with-map contact-form-with-map h-100 d-xl-flex flex-column justify-content-center"
+                class="contact-form-with-map h-100 d-xl-flex flex-column justify-content-center"
               >
                 <h3 class="sec-title mb-40">
                   Any Legal Questions? We'll Take It From Here
@@ -1437,7 +1442,6 @@
     <script src="assets/js/parallax.js"></script>
     <script src="assets/js/backtotop.js"></script>
     <script src="assets/js/nice-select.js"></script>
-    <script src="assets/js/counterup.js"></script>
     <script src="assets/js/wow.js"></script>
     <script src="assets/js/isotope-pkgd.js"></script>
     <script src="assets/js/imagesloaded-pkgd.js"></script>

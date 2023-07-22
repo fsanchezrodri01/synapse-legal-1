@@ -142,6 +142,7 @@
   }
   .footer-copyright {
     text-align: center;
+    padding: 30px 0 42px;
   }
   .footer-copyright .footer-copyright-links {
     float: inherit;
@@ -173,8 +174,11 @@
   }
   .contact-section .contact-form-with-map {
     margin-top: 50px;
+  }
+  .contact-section-home2 .contact-form-with-map h3.sec-title {
     text-align: center;
   }
+
   /* inner page */
   .page-title-area .page-title-wrappper {
     margin: 200px 0 100px;
@@ -216,7 +220,7 @@
     margin-bottom: 40px;
   }
   .blog-sidebar-wrapper {
-    margin-top: 80px;
+    margin-top: 100px;
   }
   .blog-page-style2 .blog-pagination {
     margin-top: 10px;
@@ -294,6 +298,10 @@
     line-height: 40px;
     margin-bottom: 24px;
   }
+  .testimonial-slider {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
   .single-testimonial {
     text-align: center;
   }
@@ -309,20 +317,25 @@
   .site-sub form {
     position: relative;
   }
-  .site-sub form input {
-    width: 100%;
-    border-radius: 30px;
-    padding: 14px 50px;
+  .newsletter form {
+    display: inherit;
   }
   .site-sub form i {
-    left: 20px;
+    left: 26px;
+    top: 27px;
+    font-size: 20px;
+  }
+  .site-sub form input {
+    border-radius: 30px;
+    width: 100%;
+    text-align: center;
+    padding: 15px 52px;
   }
   .site-sub form button {
-    position: absolute;
-    width: inherit;
-    padding: 14px 20px;
-    right: -1px;
-    border-radius: 0 30px 30px 0;
+    border-radius: 30px;
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px 32px;
   }
   .case-slider .owl-nav {
     display: none;
@@ -334,6 +347,9 @@
   .success-sec .sccess-info h4 {
     font-size: 32px;
     line-height: 42px;
+  }
+  form.law-cform button.mt-btn-form {
+    width: 100%;
   }
 
   /* inner page */
@@ -382,6 +398,9 @@
   .case-support-info {
     margin-top: 40px;
     margin-bottom: 80px;
+  }
+  .blog-sidebar-wrapper {
+    margin-top: 80px;
   }
   .blog-details-thumb {
     margin-bottom: 40px;

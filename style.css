@@ -2104,7 +2104,7 @@ footer.footer .section-overlay {
 }
 
 .attorney-brife-bio .brife-bio-sec {
-  margin-bottom: 48px;
+  margin-bottom: 40px;
 }
 .attorney-brife-bio .brife-bio-sec h3 {
   font-size: 32px;
@@ -2373,6 +2373,10 @@ footer.footer .section-overlay {
   display: inline-block;
   border-radius: 25px;
 }
+.blog-sidebar-widget .blog-sidebar-wrapper-content .tagcloud a:hover {
+  background: var(--mt-brown);
+  color: var(--mt-text-light-white);
+}
 
 .blog-page .blog-pagination {
   margin-top: 16px;
@@ -2467,9 +2471,13 @@ footer.footer .section-overlay {
   font-size: 14px;
   line-height: 26px;
   text-decoration: none;
-  margin-left: 0;
+  margin: 8px 8px 0 0;
   display: inline-block;
   border-radius: 25px;
+}
+.blog-details-wrapper .lg-blog .blog-tagcloud a:hover {
+  background: var(--mt-brown);
+  color: var(--mt-text-light-white);
 }
 .blog-details-wrapper .autor-info-box {
   padding: 40px;
@@ -2535,7 +2543,7 @@ footer.footer .section-overlay {
   line-height: 40px;
 }
 .blog-details-wrapper .blog-comment-form form button {
-  margin-top: 55px;
+  margin-top: 36px;
 }
 
 /*----------------------------------------*/
