@@ -378,6 +378,10 @@ input[type=color] {
   border-radius: 5px;
 }
 
+.mt-btn:focus {
+  color: var(--mt-text-light-white);
+}
+
 .mt-btn i {
   margin-left: 8px;
 }
@@ -405,6 +409,9 @@ input[type=color] {
 .mt-btn-white {
   background: var(--mt-bg-light-white);
   color: var(--mt-text-color);
+}
+.mt-btn-white:focus {
+  color: var(--mt-bule);
 }
 
 /*----------------------------------------
@@ -518,9 +525,6 @@ input[type=color] {
   display: none;
 }
 
-/*----------------------------------------*/
-/*  05. Section Tilte CSS START
-/*----------------------------------------*/
 /* 00. ========= sticky animation ========== */
 @keyframes sticky {
   0% {
@@ -1086,6 +1090,20 @@ input[type=color] {
 /*----------------------------------------*/
 /*  00. Hero Section CSS START
 /*----------------------------------------*/
+.hero-section {
+  background-image: url(assets/img/hero/hero-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-sec-home2 {
+  background-image: url(assets/img/hero/hero-bg2.png);
+  background-position: top left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .hero-content {
   margin-top: 10px;
 }
@@ -2119,6 +2137,9 @@ footer.footer .section-overlay {
   font-weight: 600;
 }
 
+.skills-Prograssbar .progressbar-item {
+  margin-top: 16px;
+}
 .skills-Prograssbar .progressbar-item h4.progress-title {
   font-size: 16px;
   line-height: 28px;

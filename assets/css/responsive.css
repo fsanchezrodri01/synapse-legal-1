@@ -260,6 +260,7 @@
   .hero-content {
     margin: 0 0 44px;
   }
+
   .hero-content .hero-title {
     font-size: 48px;
     line-height: 56px;
@@ -268,6 +269,7 @@
   .hero-content a {
     margin: 16px 0 44px 0px;
   }
+
   .hero-content .hero-site-info {
     width: 100%;
   }
@@ -426,9 +428,6 @@
 /*For 320-384px up Mobile Layout*/
 
 @media (max-width: 479px) {
-  /* .hero-sec-home2 .hero-content .hero-site-info {
-    display: inherit;
-  } */
   .hero-sec-home2
     .hero-content
     .hero-site-info
@@ -444,6 +443,10 @@
     font-size: 28px;
     line-height: 36px;
     margin-bottom: 20px;
+  }
+  .hero-content .mt-btn-white {
+    margin-left: 0 !important;
+    margin-top: 0;
   }
   .success-sec .sccess-info h4 {
     font-size: 28px;
