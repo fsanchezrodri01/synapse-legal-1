@@ -11,36 +11,42 @@
 /************ TABLE OF CONTENTS ***************
 
   01. THEME DEFAULT CSS
-  02. background CSS
-	03. spacing css
-	04. buttons css
-	05. carousel css
-	06. page-title css
-	07. modal css
-	08. section-title css
-	09. breadcrumb css
-	10. animation css
-	11. preloader css
-	12. header css
-	13. meanmenu css
-	14. slider css
-	15. services css
-	16. about css
-	17. banner css
-	18. feature css
-	19. projects css
-	20. testimonial css
-	21. team css
-	22. blog css
-	23. brand css
-	24. process css
-	25. pricing css
-	26. fact css
-	27. portfolio css
-	28. faq css
-	29. contact css
-	30. sidebar css
-	31. footer css
+  02. common classes CSS
+	03. body overlay css
+	04. progress wrap css
+	05. Background and text color css
+	06. PAGE TITLE CSS
+	07. sticky animation css
+	08. PRELOADER CSS
+	09. HEADER CSS
+	10. MEAN MENU CSS
+	11. SIDEBAR CSS
+	12. HERO SECTION CSS
+	13. PRACTICE SECTION CSS
+	14. ABOUT SECTION CSS
+	15. CASE STUDIES SECTION CSS
+	16. HISTORY SECTION CSS
+	17. ATTORNEY TEAM CSS
+	18. TESTIMONIAL CSS
+	19. CONTACT SECTION CSS
+	20. BLOG SECTION CSS
+	21. FOOTER CSS
+	22. HOME2 SUCCESS SEC CSS
+	23. HOME2 PRACTICE SEC CSS
+	24. HOME2 PRICING PLAN SEC CSS
+	25. HOME2 FAQ SEC CSS
+	26. HOME2 BRAND SEC CSS
+	27. ATTORNEYS PAGE CSS
+	28. ATTORNEY DETAILS PAGE
+	29. CASE DETAILS PAGE CSS
+	30. CASE STUDIES PAGE CSS
+	31. PRACTICE PAGE CSS
+  32. PRACTICE DETAILS PAGE CSS
+  33. BLOG PAGE CSS
+  34. BLOG DETAILS PAGE CSS
+  35. 404 PAGE CSS
+  
+
 
 **********************************************/
 /*----------------------------------------*/
@@ -273,7 +279,7 @@ input[type="color"] {
 // }
 
 /*---------------------------------
-    common classes css start 
+  02. common classes css start 
 ---------------------------------*/
 
 .heading-style2 {
@@ -424,7 +430,7 @@ input[type="color"] {
   }
 }
 /*----------------------------------------
-    Body Overlay 
+  03.  body overlay css start
 -----------------------------------------*/
 .body-overlay {
   background-color: rgba(var(--tp-common-black), 0.5);
@@ -452,7 +458,7 @@ input[type="color"] {
 }
 
 /*----------------------------------------
-    Progress Wrap
+  04. progress wrap css start
 -----------------------------------------*/
 @media (max-width: 575px) {
   .progress-wrap {
@@ -474,7 +480,7 @@ input[type="color"] {
 }
 
 /*---------------------------------------
-    - Background color
+  05. Background and text color css start
 -----------------------------------------*/
 .bg-light-white {
   background: var(--mt-bg-light-white);
@@ -489,16 +495,8 @@ input[type="color"] {
 .tx-white {
   color: var(--mt-text-light-white);
 }
-
 /*----------------------------------------*/
-/*  00. SPACING CSS START
-/*----------------------------------------*/
-
-/*--
-    - Page title
------------------------------------------*/
-/*----------------------------------------*/
-/*  21. PAGE TITLE CSS START
+/*  06. PAGE TITLE CSS START
 /*----------------------------------------*/
 .page-title-area {
   background: url(/assets/img/footer/page-title-img.png) top right/cover
@@ -547,8 +545,10 @@ input[type="color"] {
     }
   }
 }
-
-/* 00. ========= sticky animation ========== */
+/*----------------------------------------*/
+/*  07. sticky animation css
+/*----------------------------------------*/
+/* ========= sticky animation ========== */
 @-webkit-keyframes sticky {
   0% {
     transform: translateY(-100%);
@@ -565,6 +565,9 @@ input[type="color"] {
     transform: translateY(0%);
   }
 }
+/*----------------------------------------*/
+/*  08. PRELOADER CSS START
+/*----------------------------------------*/
 .preloader {
   position: fixed;
   left: 0px;
@@ -579,7 +582,7 @@ input[type="color"] {
 }
 
 /*----------------------------------------*/
-/*  02. HEADER CSS START
+/*  09. HEADER CSS START
 /*----------------------------------------*/
 .header-area {
   position: absolute;
@@ -806,7 +809,7 @@ input[type="color"] {
 }
 
 /*----------------------------------------*/
-/*  03. MEAN MENU CSS START
+/*  10. MEAN MENU CSS START
 /*----------------------------------------*/
 /* mean menu customize */
 .mean-container a.meanmenu-reveal {
@@ -894,7 +897,7 @@ input[type="color"] {
 }
 
 /*----------------------------------------*/
-/*  00. Sidebar CSS START
+/*  11. SIDEBAR CSS START
 /*----------------------------------------*/
 .sidebar__area {
   position: fixed;
@@ -1097,7 +1100,7 @@ input[type="color"] {
   visibility: visible;
 }
 /*----------------------------------------*/
-/*  00. Hero Section CSS START
+/*  12. HERO SECTION CSS START
 /*----------------------------------------*/
 .hero-section {
   background-image: url(assets/img/hero/hero-bg.png);
@@ -1216,7 +1219,7 @@ ul.hero-site-info {
   }
 }
 /*----------------------------------------*/
-/*  00. Practice Section CSS START
+/*  13. PRACTICE SECTION CSS START
 /*----------------------------------------*/
 .single-practice-area {
   margin-bottom: 40px;
@@ -1237,7 +1240,7 @@ ul.hero-site-info {
 }
 
 /*----------------------------------------*/
-/*  00. About Section CSS START
+/*  14. ABOUT SECTION CSS START
 /*----------------------------------------*/
 .about-sec-img {
   position: relative;
@@ -1316,10 +1319,9 @@ ul.hero-site-info {
 .about-section-home2 {
   padding-bottom: 196px;
 }
-// Home2 About Section
 
 /*----------------------------------------*/
-/*  00. Case Studies Section CSS START
+/*  15. CASE STUDIES SECTION CSS START
 /*----------------------------------------*/
 .single-case-info {
   .single-case-img {
@@ -1420,7 +1422,7 @@ ul.hero-site-info {
 }
 
 /*----------------------------------------*/
-/*  00. History Section CSS START
+/*  16. HISTORY SECTION CSS START
 /*----------------------------------------*/
 .history-section {
   background: url(/assets/img/history/history-bg.png) top left/cover no-repeat;
@@ -1523,7 +1525,7 @@ ul.hero-site-info {
   }
 }
 /*----------------------------------------*/
-/*  00. Attornys Team CSS START
+/*  17. ATTORNEY TEAM CSS START
 /*----------------------------------------*/
 
 .single-attorney {
@@ -1632,7 +1634,7 @@ ul.hero-site-info {
   }
 }
 /*----------------------------------------*/
-/*  00. Testimonial CSS START
+/*  18. TESTIMONIAL CSS START
 /*----------------------------------------*/
 .testimonial-section {
   overflow: hidden;
@@ -1701,7 +1703,7 @@ ul.hero-site-info {
   }
 }
 /*----------------------------------------*/
-/*  00. Contact sec CSS START
+/*  19. CONTACT SECTION CSS START
 /*----------------------------------------*/
 .contact-section {
   .sec-content {
@@ -1772,7 +1774,7 @@ form.law-cform {
   }
 }
 /*----------------------------------------*/
-/*  Blog sec CSS START
+/*  20. BLOG SECTION CSS START
 /*----------------------------------------*/
 .blog-item {
   margin-bottom: 40px;
@@ -1835,7 +1837,7 @@ form.law-cform {
 }
 
 /*----------------------------------------*/
-/*  00. Footer CSS START
+/*  21. FOOTER CSS START
 /*----------------------------------------*/
 footer.footer {
   background: url(/assets/img/footer/footer.png) top right/cover no-repeat;
@@ -1976,7 +1978,7 @@ footer.footer {
   }
 }
 /*----------------------------------------*/
-/*  00.Home2 Success Sec CSS START
+/*  22.HOME2 SUCCESS SEC CSS START
 /*----------------------------------------*/
 .success-sec {
   .sccess-info {
@@ -1991,7 +1993,7 @@ footer.footer {
   }
 }
 /*----------------------------------------*/
-/*  00.Home2 Practice Sec CSS START
+/*  23.HOME2 PRACTICE SEC CSS START
 /*----------------------------------------*/
 .single-practice-two {
   padding: 40px 60px 28px;
@@ -2014,7 +2016,7 @@ footer.footer {
   }
 }
 /*----------------------------------------*/
-/*  00.Home2 Pricing Plan Sec CSS START
+/*  24. HOME2 PRICING PLAN SEC CSS START
 /*----------------------------------------*/
 .single-plan {
   background: var(--mt-bg-light-white);
@@ -2077,7 +2079,7 @@ footer.footer {
 }
 
 /*----------------------------------------*/
-/*  00.Home2 Faq Sec CSS START
+/*  25. HOME2 FAQ SEC CSS START
 /*----------------------------------------*/
 
 .faq-accordion {
@@ -2140,7 +2142,7 @@ footer.footer {
   padding-bottom: 177px;
 }
 /*----------------------------------------*/
-/*  00.Home2 Brand Sec CSS START
+/*  26. HOME2 BRAND SEC CSS START
 /*----------------------------------------*/
 .brand-slider {
   margin-top: 40px;
@@ -2153,13 +2155,13 @@ footer.footer {
   }
 }
 /*----------------------------------------*/
-/*  00.attorneys page CSS START
+/*  27. attorneys page CSS START
 /*----------------------------------------*/
 .attorneys-page.attorney-section {
   padding-bottom: 76px;
 }
 /*----------------------------------------*/
-/*  00.Attorney Details page CSS START
+/*  28. ATTORNEY DETAILS PAGE CSS START
 /*----------------------------------------*/
 .attorney-short-bio {
   .attorney-img {
@@ -2251,7 +2253,7 @@ footer.footer {
   }
 }
 /*----------------------------------------*/
-/*  00.Case Details page CSS START
+/*  29. CASE DETAILS PAGE START
 /*----------------------------------------*/
 .cases-short-info {
   .cases-info-title {
@@ -2325,7 +2327,7 @@ footer.footer {
   }
 }
 /*----------------------------------------*/
-/*  00.Case Studies Page CSS START
+/*  30. CASE STUDIES PAGE CSS START
 /*----------------------------------------*/
 .case-category-list {
   margin-bottom: 20px;
@@ -2372,13 +2374,13 @@ footer.footer {
   }
 }
 /*----------------------------------------*/
-/*  00.Practice Page CSS START
+/*  31. Practice Page CSS START
 /*----------------------------------------*/
 .practice-page {
   padding-bottom: 76px;
 }
 /*----------------------------------------*/
-/*  00.Practice Details Page CSS START
+/*  32. Practice Details Page CSS START
 /*----------------------------------------*/
 .practice-details {
   .practice-list {
@@ -2424,7 +2426,7 @@ footer.footer {
   }
 }
 /*----------------------------------------*/
-/*  00.Blog Page CSS START
+/*  33. BLOG PAGE CSS START
 /*----------------------------------------*/
 .blog-page {
   .blog-item {
@@ -2565,7 +2567,7 @@ footer.footer {
   }
 }
 /*----------------------------------------*/
-/*  00.Blog Details Page CSS START
+/*  04. BLOG DETAILS PAGE CSS START
 /*----------------------------------------*/
 .sblog-title-wrappper {
   ul.blog-meta {
@@ -2718,7 +2720,7 @@ footer.footer {
   }
 }
 /*----------------------------------------*/
-/*  00.404 Page CSS START
+/*  35. 404 PAGE CSS START
 /*----------------------------------------*/
 .page-nf-section {
   .nf-img {

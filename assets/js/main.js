@@ -1,10 +1,3 @@
-/***************************************************
-==================== JS INDEX ======================
-****************************************************
-
-
-****************************************************/
-
 (function ($) {
   "use strict";
 
@@ -44,7 +37,7 @@
   });
 
   ////////////////////////////////////////////////////
-  // 06. Sticky Header Js
+  // 05. Sticky Header Js
   windowOn.on("scroll", function () {
     var scroll = $(window).scrollTop();
     if (scroll < 100) {
@@ -55,18 +48,17 @@
   });
 
   ////////////////////////////////////////////////////
-
-  /* magnificPopup video view */
+  // 06. magnificPopup video view
   $(".btn-play").magnificPopup({
     type: "iframe",
   });
 
   ////////////////////////////////////////////////////
-  // 14. Wow Js
+  // 07. Wow Js
   new WOW().init();
 
-  // Jquery Appear
-  //----------------------------------------------------------------------------------------
+  ////////////////////////////////////////////////////
+  // 08. Wow Js
   if ($(".progress-bar").length) {
     $(".progress-bar").appear(
       function () {
@@ -79,9 +71,8 @@
       }
     );
   }
-
   ///////////////////////////////////////////////////
-  // 13. case-slider Js
+  // 09. case-slider Js
   $(".case-slider").owlCarousel({
     //add owl carousel in activation class
     loop: true,
@@ -109,8 +100,8 @@
       },
     },
   });
-
-  // 13. testimonial-slider Js
+  ///////////////////////////////////////////////////
+  // 10. testimonial-slider Js
   $(".testimonial-slider").owlCarousel({
     //add owl carousel in activation class
     loop: true,
@@ -135,7 +126,8 @@
       },
     },
   });
-  // 14. attorny-slider Js
+  ///////////////////////////////////////////////////
+  // 11. attorny-slider Js
   $(".attorney-slider").owlCarousel({
     //add owl carousel in activation class
     loop: true,
@@ -159,8 +151,8 @@
       },
     },
   });
-
-  // 14. attorny-slider Js
+  ///////////////////////////////////////////////////
+  // 12. brand-slider Js
   $(".brand-slider").owlCarousel({
     //add owl carousel in activation class
     loop: true,
@@ -183,8 +175,7 @@
   });
 
   ////////////////////////////////////////////////////
-  // 00. Isotope Js active for Case Category
-
+  // 13. Isotope Js active for Case Category
   // filter items on button click
   $(".case-category-list").on("click", "button", function () {
     var filterValue = $(this).attr("data-filter");
@@ -202,7 +193,7 @@
   });
 
   ////////////////////////////////////////////////////
-  // 00.Case Category List active class add
+  // 14.Case Category List active class add
   $(".case-category-list").on("click", "button", function () {
     $(".case-category-list button.active").removeClass("active");
     $(this).addClass("active");

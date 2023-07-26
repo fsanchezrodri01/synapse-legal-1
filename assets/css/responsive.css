@@ -225,6 +225,10 @@
   .blog-page-style2 .blog-pagination {
     margin-top: 10px;
   }
+  .wow {
+    animation-name: none !important;
+    visibility: visible !important;
+  }
 }
 
 /*For Wide Mobile Layout*/
