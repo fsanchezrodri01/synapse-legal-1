@@ -381,7 +381,6 @@ input[type=color] {
 
 .mt-btn:hover {
   color: var(--mt-text-light-white);
-  border-radius: 5px;
 }
 
 .mt-btn:focus {
@@ -720,6 +719,7 @@ input[type=color] {
 
 .main-menu ul li .sub-menu li:hover > a {
   color: var(--tp-theme-1);
+  margin-left: 10px;
 }
 
 .main-menu ul li .sub-menu li > .sub-menu {
@@ -1304,41 +1304,22 @@ ul.hero-site-info li.site-info2 .site-rating-img img {
 /*----------------------------------------*/
 /*  15. CASE STUDIES SECTION CSS START
 /*----------------------------------------*/
+.single-case-info {
+  transition: all 0.3s ease-out 0s;
+}
+.single-case-info:hover .single-case-img img {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
 .single-case-info .single-case-img {
+  overflow: hidden;
   position: relative;
 }
 .single-case-info .single-case-img img {
   width: 100%;
-}
-.single-case-info .single-case-img .single-case-img-hover {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(158, 107, 88, 0.6);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  transform: scale(0);
-  transition: all 0.3s ease-out 0s;
-}
-.single-case-info .single-case-img .single-case-img-hover a {
-  height: 88px;
-  width: 88px;
-  font-size: 35px;
-  color: var(--mt-text-light-white);
-  border: 2px solid #fcf7e9;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-}
-.single-case-info .single-case-img:hover .single-case-img-hover {
-  opacity: 1;
-  transform: scale(1);
 }
 .single-case-info .single-case-content h4 {
   margin: 24px 0 4px;
@@ -1922,9 +1903,23 @@ footer.footer .section-overlay {
 /*  23.HOME2 PRACTICE SEC CSS START
 /*----------------------------------------*/
 .single-practice-two {
+  position: relative;
   padding: 40px 60px 28px;
   background: var(--mt-bg-light-white);
   margin-bottom: 40px;
+}
+.single-practice-two::before {
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 4px;
+  background: var(--mt-brown);
+  left: 0;
+  bottom: 0;
+  transition: all 0.3s 0s;
+}
+.single-practice-two:hover::before {
+  width: 100%;
 }
 .single-practice-two i {
   font-size: 60px;
